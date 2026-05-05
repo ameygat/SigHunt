@@ -36,7 +36,7 @@ mysql -u ctf_user -p ctf_platform < challenges_export_2026-04-20_112510.sql
 
 ## Project Structure
 ```
-ctf_platform/
+SigHunt/
 ├── app.py
 ├── requirements.txt
 ├── challenges_logs/     <- uploaded log files
