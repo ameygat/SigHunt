@@ -1,0 +1,75 @@
+[
+  {
+    "Provider": null,
+    "EventID": "8",
+    "Version": "2",
+    "Level": "4",
+    "Task": "8",
+    "Opcode": "0",
+    "Keywords": "0x8000000000000000",
+    "TimeCreated": "2019-04-30 07:26:34.133638+00:00",
+    "EventRecordID": "8484",
+    "Correlation": null,
+    "Execution": null,
+    "Channel": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "IEWIN7",
+    "Security": null,
+    "RuleName": null,
+    "UtcTime": "2019-04-30 07:26:34.133",
+    "SourceProcessGuid": "{365abb72-f7c9-5cc7-0000-0010bf010e00}",
+    "SourceProcessId": "3772",
+    "SourceImage": "\\\\vboxsrv\\HTools\\m.exe",
+    "TargetProcessGuid": "{365abb72-f6c9-5cc7-0000-0010135f0600}",
+    "TargetProcessId": "2812",
+    "TargetImage": "C:\\Windows\\explorer.exe",
+    "NewThreadId": "840",
+    "StartAddress": "0x02060000",
+    "StartModule": null,
+    "StartFunction": null
+  },
+  {
+    "EventRecordID": "2002",
+    "EventID": "11",
+    "TimeCreated": "2026-04-15T22:08:45",
+    "Channel": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "FILESERVER-02",
+    "Description": "FileCreate",
+    "EventData": "{\"Image\": \"C:\\\\Windows\\\\System32\\\\powershell.exe\", \"TargetFilename\": \"C:\\\\Users\\\\Public\\\\Downloads\\\\payload.exe\", \"User\": \"mwilson\"}"
+  },
+  {
+    "EventRecordID": "2004",
+    "EventID": "13",
+    "TimeCreated": "2026-04-15T19:46:39",
+    "Channel": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "WORKSTATION-01",
+    "Description": "RegistryEvent (Value Set)",
+    "EventData": "{\"Image\": \"C:\\\\Users\\\\Public\\\\malware.exe\", \"User\": \"mwilson\"}"
+  },
+  {
+    "EventRecordID": "2000",
+    "EventID": "11",
+    "TimeCreated": "2026-04-16T09:23:32",
+    "Channel": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "FILESERVER-02",
+    "Description": "FileCreate",
+    "EventData": "{\"Image\": \"C:\\\\Program Files\\\\SomeApp\\\\app.exe\", \"TargetFilename\": \"C:\\\\Users\\\\Public\\\\Downloads\\\\payload.exe\", \"User\": \"guest\"}"
+  },
+  {
+    "EventRecordID": "2003",
+    "EventID": "12",
+    "TimeCreated": "2026-04-16T09:02:54",
+    "Channel": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "LAPTOP-HR-05",
+    "Description": "RegistryEvent (Object create and delete)",
+    "EventData": "{\"Image\": \"C:\\\\Windows\\\\System32\\\\svchost.exe\", \"User\": \"svc_backup\"}"
+  },
+  {
+    "EventRecordID": "2001",
+    "EventID": "10",
+    "TimeCreated": "2026-04-16T08:51:29",
+    "Channel": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "WORKSTATION-01",
+    "Description": "ProcessAccess",
+    "EventData": "{\"SourceImage\": \"C:\\\\Windows\\\\System32\\\\powershell.exe\", \"TargetImage\": \"C:\\\\Windows\\\\System32\\\\lsass.exe\", \"GrantedAccess\": \"0x1010\"}"
+  }
+]
